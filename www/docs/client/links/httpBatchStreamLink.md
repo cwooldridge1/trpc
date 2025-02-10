@@ -136,7 +136,7 @@ This includes support for `undici`, `node-fetch`, native Node.js fetch implement
 
 ### React Native
 
-Receiving the stream relies on the `TextDecoder` and `TextDecoderStream` APIs, which is not available in React Native. If you still want to enable streaming, you need to polyfill those.
+Receiving the stream relies on the `TextDecoder`, `WritableStream` and `TextDecoderStream` APIs, which is not available in React Native. If you still want to enable streaming, you need to polyfill those.
 
 ## Compatibility (server-side)
 
